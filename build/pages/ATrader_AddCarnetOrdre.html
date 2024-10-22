@@ -25,7 +25,7 @@
 
   <body class="m-0 font-sans text-base antialiased font-normal leading-default bg-gray-50 text-slate-500">
     <!-- sidenav  -->
-    <aside class="max-w-62.5 ease-nav-brand z-990 fixed inset-y-0 my-4 ml-4 block w-full -translate-x-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0 bg-white p-0 antialiased shadow-none transition-transform duration-200 xl:left-0 xl:translate-x-0 xl:bg-transparent" style="background-color: #4D44B5;">
+    <aside class="max-w-62.5 ease-nav-brand z-100 fixed inset-y-0 my-4 ml-4 block w-full -translate-x-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0 bg-white p-0 antialiased shadow-none transition-transform duration-200 xl:left-0 xl:translate-x-0 xl:bg-transparent" style="background-color: #4D44B5;">
       <div class="h-19.5">
         <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-white xl:hidden" sidenav-close></i>
         <a class="block px-8 py-6 m-0 text-lg whitespace-nowrap text-white" href="#" >
@@ -39,8 +39,7 @@
       <div class="items-center block w-auto max-h-screen overflow-auto  grow basis-full">
         <ul class="flex flex-col pl-0 mb-0 text-gray-200">
           <li class="mt-0.5 w-full">
-            <a class="py-2.7 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-white px-4 font-semibold text-slate-700 transition-colors" href="#">
-              <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+            <a class="py-2.7 text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap px-4 transition-colors" href="#">              <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
                 <svg  
                     xmlns="http://www.w3.org/2000/svg"  
                     viewBox="0 0 24 24"  
@@ -79,21 +78,19 @@
           </li>
 
           <li class="mt-0.5 w-full">
-            <a class="py-2.7 text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap px-4 transition-colors" href="#">
-              <div class="shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center fill-current stroke-0 text-center xl:p-2.5">
-                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <title>credit-card</title>
-                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                      <g transform="translate(1716.000000, 291.000000)">
-                        <g transform="translate(453.000000, 454.000000)">
-                          <path class="fill-slate-800 opacity-60" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z"></path>
-                          <path class="fill-slate-800" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
+            <a class="py-2.7 shadow-soft-xl text-sm ease-nav-brand my-0 mx-4 flex items-center whitespace-nowrap rounded-lg bg-white px-4 font-semibold text-slate-700 transition-colors" href="#">
+              <div class="bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white bg-center stroke-0 text-center xl:p-2.5">
+                <svg  
+                    xmlns="http://www.w3.org/2000/svg"  
+                    viewBox="0 0 24 24"  
+                    width="24"  
+                    height="24"  
+                  >  
+                    <path  
+                      d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"  
+                      fill="currentColor"  
+                    />  
+              </svg>
               </div>
               <span class="ml-1 duration-300 opacity-100 pointer-events-none ease-soft">Profil</span>
             </a>
@@ -152,7 +149,7 @@
 
     <main class="ease-soft-in-out xl:ml-68.5 relative h-full max-h-screen rounded-xl transition-all duration-200">
       <!-- Navbar -->
-      <nav class="relative flex flex-wrap items-center justify-between px-0 py-2 mx-6 transition-all shadow-none duration-250 ease-soft-in rounded-2xl lg:flex-nowrap lg:justify-start sticky top-[1%] backdrop-saturate-[200%] backdrop-blur-[30px] bg-[hsla(0,0%,100%,0.8)] shadow-blur z-110" navbar-main navbar-scroll="true">
+      <nav class="relative flex flex-wrap items-center justify-between px-0 py-2 mx-6 transition-all shadow-none duration-250 ease-soft-in rounded-2xl lg:flex-nowrap lg:justify-start sticky top-[1%] backdrop-saturate-[200%] backdrop-blur-[30px] bg-[hsla(0,0%,100%,0.8)] shadow-blur z-50" navbar-main navbar-scroll="true">
         <div class="flex items-center justify-between w-full px-4 py-1 mx-auto flex-wrap-inherit">
           <nav>
             <!-- breadcrumb -->
@@ -283,131 +280,176 @@
       <!-- end Navbar -->
 
       <!-- cards -->
-      <div class="w-full px-6 py-6 mx-auto">
-        <!-- row 1  en tete overwiers-->
-        <div class="flex flex-wrap -mx-3 " style="margin-left: 10%;">
-           <div class="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/4">
-              <div class="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border">
-                <div class="flex-auto p-4">
-                  <div class="flex flex-row -mx-3">
-                  
-                    <div class="px-3 text-right basis-1/3">
-                      <div class="inline-block w-12 h-12 text-center rounded-lg bg-gradient-to-tl from-purple-700 to-pink-500">
-                        <i class="ni leading-none ni-paper-diploma text-lg relative top-3.5 text-white"></i>
-                      </div>
-                    </div>
-                    <div class="flex-none w-2/3 max-w-full px-3">
-                      <div>
-                        <p class="mb-0 font-sans text-sm font-semibold leading-normal">Profils</p>
-                        <h5 class="mb-0 font-bold">
-                        100
-                        
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/4">
-              <div class="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border">
-                <div class="flex-auto p-4">
-                  <div class="flex flex-row -mx-3">
-                  
-                    <div class="px-3 text-right basis-1/3">
-                      <div class="inline-block w-12 h-12 text-center rounded-lg bg-gradient-to-tl from-purple-700 to-pink-500">
-                        <i class="ni leading-none ni-paper-diploma text-lg relative top-3.5 text-white"></i>
-                      </div>
-                    </div>
-                    <div class="flex-none w-2/3 max-w-full px-3">
-                      <div>
-                        <p class="mb-0 font-sans text-sm font-semibold leading-normal">Traders</p>
-                        <h5 class="mb-0 font-bold">
-                        100
-                        
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/4">
-              <div class="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border">
-                <div class="flex-auto p-4">
-                  <div class="flex flex-row -mx-3">
-              
-                    <div class="px-3 text-right basis-1/3">
-                      <div class="inline-block w-12 h-12 text-center rounded-lg bg-gradient-to-tl from-purple-700 to-pink-500">
-                        <i class="ni leading-none ni-paper-diploma text-lg relative top-3.5 text-white"></i>
-                      </div>
-                    </div>
-                    <div class="flex-none w-2/3 max-w-full px-3">
-                      <div>
-                        <p class="mb-0 font-sans text-sm font-semibold leading-normal">Messages</p>
-                        <h5 class="mb-0 font-bold">
-                          100
-                      
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <main class="  max-h-screen rounded-xl transition-all duration-200">
 
-        </div>
-          <!-- row 2  Graphes-->
-        <div class="flex mt-12 " >
-          
-              <div class=" w-1/2 px-3 mt-0 lg:flex-none" >
-                <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-                  <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-6 pb-0">
-                    <h6>OAT</h6>
-                    <p class="text-sm leading-normal">
-                      <i class="fa fa-arrow-up text-lime-500"></i>
-                      <span class="font-semibold">4% more</span> in 2021
-                    </p>
+        <div class=" p-4   max-h-full " >
+            <!-- Modal content -->
+            <div class=" bg-white rounded-lg shadow dark:bg-gray-700 p-6">
+                  <!-- Modal header -->
+                  <div class="flex justify-center p-2 md:p-5 border-b rounded-t dark:border-gray-600 " style="background-color: #4D44B5;">
+                      <h3 class="text-xl font-semibold text-gray-900 text-white ">
+                        Formulaire de transaction (Achat / Vente de Titres)
+                      </h3>
+                     
                   </div>
-                  <div class="flex-auto p-4">
-                    <div>
-                      <canvas height="300"></canvas>
+                  <!-- Modal body -->
+                  <div class="flex justify-start mb-4">
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                      Caractéristiques du titre 
+                    </h3>
+                  </div>
+                  
+                <form>
+                  <div class="flex max-w-full justify-between mb-4">
+                    <div style="width: 32%;">
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date offre</label>
+                        <input type="date" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Emetteur :</label>
+                        <select id="countries" class="w-1/2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+  
+                          <option>United States</option>
+                          <option>Canada</option>
+                          <option>France</option>
+                          <option>Germany</option>
+                        </select>                    
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date d'échéance :</label>
+                        <input type="date" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Durée résiduelle (an)</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Valeur transaction</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                    </div>
+                    <div style="width: 32%;">
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sens:</label>
+                        <select id="countries" class="w-1/2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+  
+                          <option>ACHAT</option>
+                          <option>VENTE</option>
+                        
+                        </select>                         
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Code ISIN :</label>
+                        <input type="date" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">              
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Valeur Nom. Unitaire:</label>
+                        <input type="date" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Prix de transaction:</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">N transaction:</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                    </div>
+  
+                    <div style="width: 32%;">
+                     
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nature instrument :</label>
+                        <select id="countries" class="w-1/2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+  
+                          <option>OAT</option>
+                          <option>BAT</option>
+                          <option>France</option>
+                          <option>Germany</option>
+                        </select>                    
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Taux / Coupon: :</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                     
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Quantité:</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
+                      <div class="mb-5 flex w-full">
+                        <label for="base-input" class="w-1/2 block mb-2 text-sm font-medium text-gray-900 dark:text-white">Intérêts courus: :</label>
+                        <input type="number" class="w-1/2 ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="w-1/2 px-3 mt-0  lg:flex-none" >
-                <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-                  <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-6 pb-0">
-                    <h6>BAT</h6>
-                    <p class="text-sm leading-normal">
-                      <i class="fa fa-arrow-up text-lime-500"></i>
-                      <span class="font-semibold">4% more</span> in 2021
-                    </p>
+                  <div class="flex justify-end">
+                      <button data-modal-target="cfAnnuler" data-modal-toggle="cfAnnuler"  type="button" class="text-white bg-red font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center" style="background-color: red;">
+                        Annuler
+                    </button>
+                    <button  data-modal-target="cfAjout" data-modal-toggle="cfAjout"  type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-white focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" style="background-color: green;">Ajouter</button>
                   </div>
-                  <div class="flex-auto p-4">
-                    <div>
-                      <canvas  height="300"></canvas>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-          
-        </div>
-        
-       
+                  
+                </form>
+
+             </div>
+          </div>
       </div>
 
-
-
+      <div id="cfAnnuler" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-md max-h-full">
+            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="cfAnnuler">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+                <div class="p-4 md:p-5 text-center">
+                    <svg class="mx-auto mb-4 text-gray-400 w-12 h-12 dark:text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                    </svg>
+                    <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Voulez-vous supprimer la transaction code ISIN : BJ0000000121  ?</h3>
+                    <button data-modal-hide="cfAnnuler" type="button" class="text-black bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center">
+                       Supprimer
+                    </button>
+                    <button data-modal-hide="cfAnnuler" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Annuler</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cfAjout" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div class="relative p-4 w-full max-w-md max-h-full">
+          <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+              <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="cfAjout">
+                  <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                  </svg>
+                  <span class="sr-only">Close modal</span>
+              </button>
+              <div class="p-4 md:p-5 text-center">
+                  <svg class="mx-auto mb-4 text-gray-400 w-12 h-12 dark:text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                  </svg>
+                  <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Voulez-vous supprimer la transaction code ISIN : BJ0000000121  ?</h3>
+                  <button data-modal-hide="cfAjout" type="button" class="text-black bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center">
+                     Supprimer
+                  </button>
+                  <button data-modal-hide="cfAjout" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Annuler</button>
+              </div>
+          </div>
+      </div>
+  </div>
+     </main>
+        
 
 
 
 
 
       <!-- end cards -->
-    </main>
+   
     <div fixed-plugin>
       <a fixed-plugin-button class="bottom-7.5 right-7.5 text-xl z-990 shadow-soft-lg rounded-circle fixed cursor-pointer bg-white px-4 py-2 text-slate-700">
         <i class="py-2 pointer-events-none fa fa-cog"> </i>
@@ -430,8 +472,9 @@
       </div>
     </div>
   </body>
-  <!-- plugin for charts  -->
   <script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+  <!-- plugin for charts  -->
   <script src="./assets/js/plugins/chartjs.min.js" async></script>
   <!-- plugin for scrollbar  -->
   <script src="./assets/js/plugins/perfect-scrollbar.min.js" async></script>
